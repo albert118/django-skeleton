@@ -1,7 +1,5 @@
 # django-skeleton
 
-# [django-skeleton][docs]
-
 **A django project skeleton for easy setup on a LAMP server! Under development...**
 
 ##Some of the features currently built-in:
