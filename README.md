@@ -1,7 +1,7 @@
 # django-skeleton
 
 **A django project skeleton for easy setup on a LAMP server! Under development...**
-
+#### This project currently borrows heavily from the [Edge project](https://github.com/arocks/edge). Check it out!
 ##Some of the features currently built-in:
 
 *Ready project skeleton for development.
@@ -41,11 +41,8 @@ Note: by default the --template argument expects .py file types, use the --exten
 9. Now add all your code & you're good to go!
 
 
-### Detailed instructions
-
+## Detailed instructions:
 Take a look at the docs for more information.
 Also checkout:
 [Python](https://www.python.org/)
 [Django](https://www.djangoproject.com/)
-
-## This project currently borrows heavily from the [Edge project](https://github.com/arocks/edge). Check it out!
