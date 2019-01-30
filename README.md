@@ -16,7 +16,7 @@
 Using [Django's](https://docs.djangoproject.com/en/2.1/ref/django-admin/) admin startproject function to fetch the code from this Git:
 Note: by default the --template argument expects .py file types, use the --extension argument to also add README, html code and so forth to your project. Remove these if you don't want the README in your code (ideally you would though for completeness). 
 
-1. `django-admin.py startproject --template=https://github.com/arocks/edge/archive/master.zip --extension=py,md,html,env my_proj` *Change `my_proj` to whatever name you want!*
+1. `django-admin startproject --template=https://github.com/arocks/edge/archive/master.zip --extension=py,md,html,env my_proj` *Change `my_proj` to whatever name you want!*
 2. `cd my_proj` Then,copy the sample local environment variables to a permanent one, this makes it easier to go back in case of issues.` cp my_proj/settings/local.sample.env my_proj/settings/local.env`
 3. Setup a [MySQL server](http://www.ntu.edu.sg/home/ehchua/programming/sql/MySQL_HowTo.html#intro), see number 3. If you're new to MySQL or need a refresher then read the bits before.
 4. Setup a user for Django to use when making migrations:
