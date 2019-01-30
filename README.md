@@ -18,7 +18,7 @@ Note: by default the --template argument expects .py file types, use the --exten
 
 1. `django-admin.py startproject --template=https://github.com/arocks/edge/archive/master.zip --extension=py,md,html,env my_proj` *Change `my_proj` to whatever name you want!*
 2. `cd my_proj` Then,copy the sample local environment variables to a permanent one, this makes it easier to go back in case of issues.` cp my_proj/settings/local.sample.env my_proj/settings/local.env`
-3. Setup a [MySQL server](http://www.ntu.edu.sg/home/ehchua/programming/sql/MySQL_HowTo.html#intro), see number 3. If you're new to MySQL or need a refersher then read the bits before.
+3. Setup a [MySQL server](http://www.ntu.edu.sg/home/ehchua/programming/sql/MySQL_HowTo.html#intro), see number 3. If you're new to MySQL or need a refresher then read the bits before.
 4. Setup a user for Django to use when making migrations:
 Make sure a client is running before doing this!
 `mysql -u root -p     //Windows`
