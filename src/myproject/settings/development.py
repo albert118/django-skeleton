@@ -9,6 +9,7 @@ DJANGO_SETTINGS_MODULE={{ project_name }}.settings.development
 
 from .base import *
 import sys
+import os
 import logging.config
 
 # SECURITY WARNING: don't run with debug turned on in production!
