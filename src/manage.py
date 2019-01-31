@@ -5,10 +5,7 @@ import sys
 if __name__ == '__main__':
 	# set the deault django settings to development.
 	# change the environment variable as required (="settings.production", etc..)
-	os.environ.setdefault
-	(
-		"DJANGO_SETTINGS_MODULE", "{{ project_name }}.settings.development"
-	)
+	os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Devise.settings.development")
 
 	try:
 		from django.core.management import execute_from_command_line
