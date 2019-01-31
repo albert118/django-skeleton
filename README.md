@@ -1,7 +1,6 @@
 # django-skeleton
 
 **A django project skeleton for easy setup on a LAMP server! Under development...**
-#### This project currently borrows heavily from the [Edge project](https://github.com/arocks/edge). Check it out!
 
 ## Some of the features currently built-in:
 
@@ -38,3 +37,7 @@ Take a look at the docs for more information.
 Also checkout:
 [Python](https://www.python.org/)
 [Django](https://www.djangoproject.com/)
+
+## Acknowledgements:
+
+This project currently borrows heavily from the [Edge project](https://github.com/arocks/edge). Partially for the structure, but also for the logging and settings configuration.
